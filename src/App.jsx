@@ -3,6 +3,8 @@ import { useState } from 'react'
 //components
 
 import Header from './components/layout/header'
+import About from './components/about'
+import Projects from './components/project'
 
 function App() {
   const [lightMode, setLightMode] = useState(true)
@@ -12,11 +14,12 @@ function App() {
   }
 
   return (
-      <div id='colorTheme' className={lightMode === true ? '' : 'dark'}>
-          <div className='flex flex-col bg-slate-100 mx-auto min-h-screen dark:bg-slate-800'>
+      <div id='colorTheme' className={`${lightMode === true ? '' : 'dark'}`}>
+          <div className='flex flex-col bg-slate-100 mx-auto min-h-screen dark:bg-zinc-900'>
               <Header toggleLightMode={toggleLightMode} />
-              <main className='flex-grow p-2 max-w-screen-xl mx-auto md:p-4'>
-
+              <main className='flex-grow p-4 max-w-screen-xl mx-auto grid gap-4'>
+                <About />
+                <Projects />
               </main>
           </div>
       </div>

@@ -4,6 +4,7 @@ import { useState } from 'react'
 
 import Header from './components/layout/header'
 import About from './components/about'
+import Work from './components/work'
 import Projects from './components/project'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
               <Header toggleLightMode={toggleLightMode} />
               <main className='flex-grow p-4 max-w-screen-xl mx-auto grid gap-4'>
                 <About />
+                <Work />
                 <Projects />
               </main>
           </div>

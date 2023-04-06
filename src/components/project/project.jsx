@@ -1,6 +1,6 @@
 const Project = () => {
     return (
-        <div className='w-full bg-white rounded-lg p-4 flex flex-col gap-4'>
+        <div className='w-full bg-white rounded-lg p-4 flex flex-col gap-4 shadow-md'>
             <h3>Project Name</h3>
             <div className='grid place-items-center'>Image</div>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat, vero!</p>

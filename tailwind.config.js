@@ -10,8 +10,11 @@ module.exports = {
             gridTemplateAreas: {
                 mobile: ['about', 'work', 'skills', 'projects'],
                 tablet: ['about skills', 'work work', 'projects projects'],
-                desktop: ['about projects projects skills', 'work projects projects skills'],
+                desktop: ['about projects projects projects skills', 'work projects projects projects .', '. projects projects projects .'],
             },
+            gridTemplateRows: {
+                desktop: 'auto auto 1fr'
+            }
         },
     },
     plugins: [require('tailwind-scrollbar'), require('@savvywombat/tailwindcss-grid-areas')],

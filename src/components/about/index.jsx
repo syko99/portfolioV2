@@ -26,7 +26,7 @@ const About = () => {
                         <img src={githubSVG} alt='github' />
                     </div>
                 </a>
-                <a href='mailto:sykong.yang1@outlook.com'>
+                <a href='https://www.linkedin.com/in/sykong-yang-07a6141b6/' target='_'>
                     <div className='w-11 hover:opacity-80'>
                         <img src={linkedinSVG} alt='email' />
                     </div>

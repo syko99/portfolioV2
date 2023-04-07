@@ -1,6 +1,5 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-    mode: 'jit',
     content: ['./index.html', './src/**/*.{jsx,js}'],
     purge: ['./index.html', './src/**/*.{js,jsx}'],
     darkMode: 'class',
@@ -8,6 +7,10 @@ module.exports = {
         extend: {
             backgroundImage: {
                 landscape: "url('./src/assets/profile_images/landscape.png')",
+                taskr: "url('./src/assets/project_images/taskr.png')",
+                castforecast: "url('./src/assets/project_images/castforecast.png')",
+                welp: "url('./src/assets/project_images/welp.jpg')",
+                pixelSketcher: "url('./src/assets/project_images/pixelSketcher.jpg')",
             },
             gridTemplateAreas: {
                 mobile: ['about', 'work', 'skills', 'projects'],

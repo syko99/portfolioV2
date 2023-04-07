@@ -32,7 +32,7 @@ const Skills = () => {
     ]
 
     let iconComponents = skillIcons.map((icon) => {
-        return <Skill icon={icon} />
+        return <Skill icon={icon} key={icon} />
     })
 
     return (

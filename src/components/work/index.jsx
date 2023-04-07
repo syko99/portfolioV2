@@ -2,12 +2,12 @@ import softwareForGoodImg from '../../assets/sfg.svg'
 
 const Work = () => {
     return (
-        <div className='grid-in-work w-full bg-white rounded-lg shadow-md p-4 flex flex-col gap-4'>
-            <h2 className="text-xl font-bold border-b text-slate-800">Work</h2>
+        <div className='grid-in-work w-full bg-white rounded-lg shadow-md p-4 flex flex-col gap-4 dark:bg-zinc-800 dark:text-slate-300'>
+            <h2 className="text-xl border-b text-slate-800 dark:text-slate-300">Work</h2>
             <div className='text-center flex flex-col gap-4 items-center lg:text-start'>
                 <div className='lg:self-start'>
-                    <h3 className='font-medium'>Software Developer Intern</h3>
-                    <p className='capitalize text-black/75 text-sm'>
+                    <h3 className='text-lg font-bold'>Software Developer Intern</h3>
+                    <p className='capitalize text-black/75 text-sm dark:text-slate-300/75'>
                         Software For Good - Summer 2022
                     </p>
                 </div>

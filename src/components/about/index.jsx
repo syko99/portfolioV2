@@ -5,14 +5,14 @@ import linkedinSVG from '../../assets/profile_images/linkedin.svg'
 
 const About = () => {
     return (
-        <div className='grid-in-about w-full bg-white rounded-lg relative shadow-md overflow-hidden'>
-            <div className='w-full h-24 border-b overflow-hidden bg-landscape bg-center'></div>
-            <div className='rounded-full border w-24 h-24 absolute left-1/2 top-24 -translate-x-1/2 -translate-y-1/2 overflow-hidden bg-white'>
+        <div className='grid-in-about w-full bg-white rounded-lg relative shadow-md overflow-hidden dark:bg-zinc-800'>
+            <div className='w-full h-24 overflow-hidden bg-landscape bg-center'></div>
+            <div className='rounded-full w-24 h-24 absolute left-1/2 top-24 -translate-x-1/2 -translate-y-1/2 overflow-hidden'>
                 <img src={profileImg} alt='profile image' className='absolute -bottom-0' />
             </div>
-            <div className='mt-12 p-4 flex flex-col items-center'>
-                <h1 className='text-center font-medium text-xl'>Sykong Yang</h1>
-                <h2 className='text-center text-black/75 mt-2'>
+            <div className='mt-12 p-4 flex flex-col items-center dark:text-slate-300'>
+                <h1 className='text-center font-bold text-xl'>Sykong Yang</h1>
+                <h2 className='text-center text-sm text-black/75 mt-2 dark:text-slate-400'>
                     Full Stack Developer - B.S. Computer Science
                 </h2>
                 <p className='text-center mt-4 max-w-prose'>

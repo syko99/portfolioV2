@@ -43,8 +43,8 @@ const Projects = () => {
     })
 
     return (
-        <div className='grid-in-projects w-full grid gap-16 p-4 bg-white shadow-md rounded-lg'>
-            <h2 className='text-xl font-bold border-b text-slate-800'>Projects</h2>
+        <div className='grid-in-projects w-full grid gap-16 p-4 bg-white shadow-md rounded-lg dark:bg-zinc-800'>
+            <h2 className='text-xl border-b text-slate-800 dark:text-slate-300'>Projects</h2>
             {projectComponents}
         </div>
     )

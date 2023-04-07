@@ -36,8 +36,8 @@ const Skills = () => {
     })
 
     return (
-        <div className='grid-in-skills w-full bg-white rounded-lg p-4 relative shadow-md overflow-hidden'>
-            <h2 className='text-xl font-bold border-b mb-4 text-slate-800'>Skills</h2>
+        <div className='grid-in-skills w-full bg-white rounded-lg p-4 relative shadow-md overflow-hidden dark:bg-zinc-800'>
+            <h2 className='text-xl border-b mb-4 text-slate-800 dark:text-slate-300'>Skills</h2>
             <div className='flex flex-wrap gap-4 justify-center items-center'>{iconComponents}</div>
         </div>
     )

@@ -5,7 +5,7 @@ import linkedinSVG from '../../assets/profile_images/linkedin.svg'
 
 const About = () => {
     return (
-        <div className='w-full bg-white rounded-lg relative shadow-md overflow-hidden'>
+        <div className='grid-in-about w-full bg-white rounded-lg relative shadow-md overflow-hidden'>
             <div className='w-full h-24 border-b overflow-hidden bg-landscape bg-center'></div>
             <div className='rounded-full border w-24 h-24 absolute left-1/2 top-24 -translate-x-1/2 -translate-y-1/2 overflow-hidden bg-white'>
                 <img src={profileImg} alt='profile image' className='absolute -bottom-0' />

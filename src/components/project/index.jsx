@@ -43,8 +43,7 @@ const Projects = () => {
     })
 
     return (
-        <div className='w-full grid gap-4'>
-            <hr />
+        <div className='grid-in-projects w-full grid gap-4'>
             {projectComponents}
         </div>
     )

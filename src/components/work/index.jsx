@@ -11,7 +11,7 @@ const Work = () => {
                         Software For Good - Summer 2022
                     </p>
                 </div>
-                <div className='w-full max-w-sm'>
+                <div className='w-full max-w-sm p-4 rounded-lg dark:bg-white'>
                     <img src={softwareForGoodImg} alt='software for good logo' />
                 </div>
                 <p className='max-w-prose'>

@@ -23,17 +23,17 @@ const About = () => {
             <div className='flex justify-center items-center gap-4 p-4'>
                 <a href='https://github.com/syko99' target='_'>
                     <div className='w-8 hover:opacity-80'>
-                        <img src={githubSVG} alt='github' />
+                        <img src={githubSVG} alt='github' className='w-full'/>
                     </div>
                 </a>
                 <a href='https://www.linkedin.com/in/sykong-yang-07a6141b6/' target='_'>
                     <div className='w-11 hover:opacity-80'>
-                        <img src={linkedinSVG} alt='email' />
+                        <img src={linkedinSVG} alt='email' className='w-full'/>
                     </div>
                 </a>
                 <a href='mailto:sykong.yang1@outlook.com'>
                     <div className='w-10 hover:opacity-80'>
-                        <img src={mailSVG} alt='email' />
+                        <img src={mailSVG} alt='email' className='w-full'/>
                     </div>
                 </a>
             </div>

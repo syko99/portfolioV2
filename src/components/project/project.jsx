@@ -1,19 +1,36 @@
+import linkSvg from '../../assets/link.svg'
+import bracketSvg from '../../assets/brackets.svg'
+
 const Project = ({ project }) => {
     return (
-        <div className={`w-full h-96 rounded-lg ${project.background} bg-contain overflow-hidden text-slate-200`}>
-            <div className="w-full h-full flex flex-col gap-4 p-4 bg-gradient-to-t from-black to-transparent">
-                <div className="flex flex-col gap-4 mt-auto">
-                    <h3 className='text-3xl font-bold capitalize'>{project.name}</h3>
-                    <p>{project.description}</p>
-                    <div className='flex gap-4 justify-center items-center'>
-                        <a href={project.live} target='_' className='w-full max-w-xs'>
-                            <button className='w-full p-1 border-2 rounded-lg hover:border-slate-300 dark:border-zinc-600 dark:hover:border-zinc-500'>Live</button>
-                        </a>
-                        <a href={project.code} target='_' className='w-full max-w-xs'>
-                            <button className='w-full p-1 border-2 rounded-lg hover:border-slate-300 dark:border-zinc-600 dark:hover:border-zinc-500'>Code</button>
-                        </a>
-                    </div>
+        <div
+            className={`w-full flex flex-col rounded-lg p-4 ${project.background} shadow-md ${project.textColor}`}>
+            <div className='flex justify-between items-center'>
+                <div>
+                    <h3 className='text-2xl font-bold capitalize'>{project.name}</h3>
+                    <p className='opacity-75'>{project.description}</p>
                 </div>
+                <div className={`flex gap-4 text-black`}>
+                    <a href={project.live} target='_' className=''>
+                        <button
+                            className={`w-10 aspect-square p-1 rounded-full grid place-items-center bg-white`}>
+                            <div className='w-6'>
+                                <img src={linkSvg} alt='link to project page' />
+                            </div>
+                        </button>
+                    </a>
+                    <a href={project.code} target='_' className=''>
+                        <button
+                            className={`w-10 aspect-square p-1 rounded-full grid place-items-center bg-white`}>
+                            <div className='w-6'>
+                                <img src={bracketSvg} alt='link to code' />
+                            </div>
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div className='w-3/4 mx-auto mt-8'>
+                <img src={project.image} alt='project image' />
             </div>
         </div>
     )

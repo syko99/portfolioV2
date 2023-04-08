@@ -6,7 +6,7 @@ module.exports = {
     theme: {
         extend: {
             backgroundImage: {
-                landscape: "url('./src/assets/profile_images/landscape.png')",
+                landscape: "url('./public/assets/profile_images/landscape.png')",
             },
             gridTemplateAreas: {
                 mobile: ['about', 'work', 'skills', 'projects'],

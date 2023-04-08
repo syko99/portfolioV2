@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-const Header = ({toggleLightMode, changeActivePage}) => {
+const Header = ({ toggleLightMode, changeActivePage }) => {
     const [mobileMenuActive, setMobileMenuActive] = useState(false)
 
     function toggleMobileMenu() {
@@ -10,8 +10,14 @@ const Header = ({toggleLightMode, changeActivePage}) => {
     return (
         <header>
             <nav className='flex flex-col items-center max-w-screen-2xl mx-auto text-slate-800 md:flex-row md:justify-between 2xl:px-0 md:px-12'>
-                <button id='logo' onClick={()=>changeActivePage('weather')} className='flex items-center self-start my-4 mx-4' role='link'>
-                    <span className='text-2xl font-bold dark:text-slate-300 dark:font-medium'>Sykong.dev</span>
+                <button
+                    id='logo'
+                    onClick={() => changeActivePage('weather')}
+                    className='flex items-center self-start my-4 mx-4'
+                    role='link'>
+                    <span className='text-2xl font-bold dark:text-slate-300 dark:font-medium'>
+                        Sykong.dev
+                    </span>
                 </button>
                 <button
                     onClick={toggleMobileMenu}
@@ -51,6 +57,14 @@ const Header = ({toggleLightMode, changeActivePage}) => {
                             className='w-full px-4 py-2 text-start capitalize hover:backdrop-brightness-95 md:hover:backdrop-brightness-100 md:hover:text-slate-400 dark:text-slate-200 dark:hover:backdrop-brightness-110 dark:md:hover:backdrop-brightness-100'
                             role='link'>
                             Work
+                        </button>
+                    </li>
+                    <li className='w-full'>
+                        <button
+                            id='homeLink'
+                            className='w-full px-4 py-2 text-start capitalize hover:backdrop-brightness-95 md:hover:backdrop-brightness-100 md:hover:text-slate-400 dark:text-slate-200 dark:hover:backdrop-brightness-110 dark:md:hover:backdrop-brightness-100'
+                            role='link'>
+                            Skills
                         </button>
                     </li>
                     <li className='w-full'>

@@ -1,7 +1,7 @@
-import profileImg from '../../assets/profile_images/profile.jpg'
-import githubSVG from '../../assets/profile_images/github.svg'
-import mailSVG from '../../assets/profile_images/mail.svg'
-import linkedinSVG from '../../assets/profile_images/linkedin.svg'
+import profileImg from '@public/assets/profile_images/profile.jpg'
+import githubSVG from '@public/assets/profile_images/github.svg'
+import mailSVG from '@public/assets/profile_images/mail.svg'
+import linkedinSVG from '@public/assets/profile_images/linkedin.svg'
 
 const About = () => {
     return (

@@ -1,4 +1,4 @@
-import softwareForGoodImg from '../../assets/sfg.svg'
+import softwareForGoodImg from '@public/assets/sfg.svg'
 
 const Work = () => {
     return (

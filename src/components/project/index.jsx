@@ -1,7 +1,7 @@
-import taskrImg from  '../../assets/project_images/taskr.png'
-import castforecastImg from  '../../assets/project_images/castforecast.png'
-import welpImg from  '../../assets/project_images/welp.jpg'
-import pixelSketcherImg from  '../../assets/project_images/pixelSketcher.jpg'
+import taskrImg from  '@public/assets/project_images/taskr.png'
+import castforecastImg from  '@public/assets/project_images/castforecast.png'
+import welpImg from  '@public/assets/project_images/welp.jpg'
+import pixelSketcherImg from  '@public/assets/project_images/pixelSketcher.jpg'
 
 import Project from './project'
 

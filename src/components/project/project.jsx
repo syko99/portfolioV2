@@ -1,5 +1,5 @@
-import linkSvg from '../../assets/link.svg'
-import bracketSvg from '../../assets/brackets.svg'
+import linkSvg from '@public/assets/link.svg'
+import bracketSvg from '@public/assets/brackets.svg'
 
 const Project = ({ project }) => {
     return (

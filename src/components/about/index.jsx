@@ -37,6 +37,7 @@ const About = () => {
                     </div>
                 </a>
             </div>
+            <div id='about' className='absolute -top-1/2' aria-hidden='true'></div>
         </div>
     )
 }

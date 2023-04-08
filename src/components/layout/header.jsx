@@ -10,15 +10,16 @@ const Header = ({ toggleLightMode, changeActivePage }) => {
     return (
         <header>
             <nav className='flex flex-col items-center max-w-screen-2xl mx-auto text-slate-800 md:flex-row md:justify-between 2xl:px-0 md:px-12'>
-                <button
-                    id='logo'
-                    onClick={() => changeActivePage('weather')}
-                    className='flex items-center self-start my-4 mx-4'
-                    role='link'>
-                    <span className='text-2xl font-bold dark:text-slate-300 dark:font-medium'>
-                        Sykong.dev
-                    </span>
-                </button>
+                <a href="/" className='self-start my-4 mx-4'>
+                    <button
+                        id='logo'
+                        className='flex items-center'
+                        role='link'>
+                        <span className='text-2xl font-bold dark:text-slate-300 dark:font-medium'>
+                            Sykong.dev
+                        </span>
+                    </button>
+                </a>
                 <button
                     onClick={toggleMobileMenu}
                     id='navMenuBtn'
@@ -44,28 +45,34 @@ const Header = ({ toggleLightMode, changeActivePage }) => {
                         'flex flex-col w-11/12 mb-4 rounded-md bg-white shadow-md my-auto md:font-medium md:flex md:flex-row md:p-0 md:w-auto md:bg-transparent md:shadow-none dark:bg-gray-500 dark:md:bg-transparent'
                     }>
                     <li className='w-full'>
-                        <button
-                            id='demoLink'
-                            className='w-full px-4 py-2 text-start capitalize hover:backdrop-brightness-95 md:hover:backdrop-brightness-100 md:hover:text-slate-400 dark:text-slate-200 dark:hover:backdrop-brightness-110 dark:md:hover:backdrop-brightness-100'
-                            role='link'>
-                            About
-                        </button>
+                        <a href="#about">
+                            <button
+                                id='demoLink'
+                                className='w-full px-4 py-2 text-start capitalize hover:backdrop-brightness-95 md:hover:backdrop-brightness-100 md:hover:text-slate-400 dark:text-slate-200 dark:hover:backdrop-brightness-110 dark:md:hover:backdrop-brightness-100'
+                                role='link'>
+                                About
+                            </button>
+                        </a>
                     </li>
                     <li className='w-full'>
-                        <button
-                            id='homeLink'
-                            className='w-full px-4 py-2 text-start capitalize hover:backdrop-brightness-95 md:hover:backdrop-brightness-100 md:hover:text-slate-400 dark:text-slate-200 dark:hover:backdrop-brightness-110 dark:md:hover:backdrop-brightness-100'
-                            role='link'>
-                            Work
-                        </button>
+                        <a href="#work">
+                            <button
+                                id='homeLink'
+                                className='w-full px-4 py-2 text-start capitalize hover:backdrop-brightness-95 md:hover:backdrop-brightness-100 md:hover:text-slate-400 dark:text-slate-200 dark:hover:backdrop-brightness-110 dark:md:hover:backdrop-brightness-100'
+                                role='link'>
+                                Work
+                            </button>
+                        </a>
                     </li>
                     <li className='w-full'>
-                        <button
-                            id='homeLink'
-                            className='w-full px-4 py-2 text-start capitalize hover:backdrop-brightness-95 md:hover:backdrop-brightness-100 md:hover:text-slate-400 dark:text-slate-200 dark:hover:backdrop-brightness-110 dark:md:hover:backdrop-brightness-100'
-                            role='link'>
-                            Skills
-                        </button>
+                        <a href="#skills">
+                            <button
+                                id='homeLink'
+                                className='w-full px-4 py-2 text-start capitalize hover:backdrop-brightness-95 md:hover:backdrop-brightness-100 md:hover:text-slate-400 dark:text-slate-200 dark:hover:backdrop-brightness-110 dark:md:hover:backdrop-brightness-100'
+                                role='link'>
+                                Skills
+                            </button>
+                        </a>
                     </li>
                     <li className='w-full'>
                         <button

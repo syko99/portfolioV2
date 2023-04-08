@@ -3,6 +3,7 @@ import { useState } from 'react'
 //components
 
 import Header from './components/layout/header'
+import Footer from './components/layout/footer'
 import About from './components/about'
 import Work from './components/work'
 import Projects from './components/project'
@@ -25,6 +26,7 @@ function App() {
                   <Skills />
                   <Projects />
                 </main>
+                <Footer />
             </div>
         </div>
     )

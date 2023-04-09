@@ -13,6 +13,8 @@ import railsSvg from '@public/assets/skills_icons/rails.svg'
 import phpSvg from '@public/assets/skills_icons/php.svg'
 import gitSvg from '@public/assets/skills_icons/git.svg'
 
+import '../shared_styles/index.css'
+
 import Skill from './skill'
 
 const Skills = () => {
@@ -38,7 +40,7 @@ const Skills = () => {
     })
 
     return (
-        <div className='grid-in-skills w-full bg-white rounded-lg p-4 relative shadow-md dark:bg-zinc-800'>
+        <div className='grid-in-skills w-full bg-white rounded-lg p-4 relative shadow-md overflow-hidden dark:shadow-[inset_0_0_2rem_0] dark:shadow-zinc-800 dark:bg-zinc-900 dark:hover-glow-pixel'>
             <h2 className='text-xl border-b mb-4 text-slate-800 dark:text-slate-300'>Skills</h2>
             <div className='flex flex-wrap gap-4 justify-center items-center'>{iconComponents}</div>
             <div id='skills' className='absolute -top-1/4' aria-hidden='true'></div>

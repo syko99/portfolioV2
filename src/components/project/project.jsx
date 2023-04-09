@@ -11,7 +11,7 @@ const Project = ({ project }) => {
                     <div className={`flex gap-2 text-black`}>
                         <a href={project.live} target='_' className=''>
                             <button
-                                className={`w-8 aspect-square p-1 rounded-full grid place-items-center bg-white sm:w-10`}>
+                                className={`w-8 aspect-square p-1 rounded-full grid place-items-center bg-white sm:w-10 hover:opacity-75`}>
                                 <div className='w-5 sm:w-6'>
                                     <img src={linkSvg} alt='link to project page' />
                                 </div>
@@ -19,7 +19,7 @@ const Project = ({ project }) => {
                         </a>
                         <a href={project.code} target='_' className=''>
                             <button
-                                className={`w-8 aspect-square p-1 rounded-full grid place-items-center bg-white sm:w-10`}>
+                                className={`w-8 aspect-square p-1 rounded-full grid place-items-center bg-white sm:w-10 hover:opacity-75`}>
                                 <div className='w-5 sm:w-6'>
                                     <img src={bracketSvg} alt='link to code' />
                                 </div>

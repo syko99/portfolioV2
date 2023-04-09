@@ -10,13 +10,10 @@ const Header = ({ toggleLightMode, changeActivePage }) => {
     return (
         <header>
             <nav className='flex flex-col items-center max-w-screen-2xl mx-auto text-slate-800 md:flex-row md:justify-between 2xl:px-0 md:px-12'>
-                <a href="/" className='self-start my-4 mx-4'>
-                    <button
-                        id='logo'
-                        className='flex items-center'
-                        role='link'>
+                <a href='/' className='self-start my-4 mx-4'>
+                    <button id='logo' className='flex items-center' role='link'>
                         <span className='text-2xl font-bold dark:text-slate-300 dark:font-medium'>
-                            Sykong.dev
+                            Sykong.<span className='dark:neon-text-live'>dev</span>
                         </span>
                     </button>
                 </a>
@@ -42,33 +39,36 @@ const Header = ({ toggleLightMode, changeActivePage }) => {
                     id='navMenu'
                     className={
                         `${mobileMenuActive === true ? ' ' : ' hidden '}` +
-                        'flex flex-col w-11/12 mb-4 rounded-md bg-white shadow-md my-auto md:font-medium md:flex md:flex-row md:p-0 md:w-auto md:bg-transparent md:shadow-none dark:bg-gray-500 dark:md:bg-transparent'
+                        'flex flex-col w-11/12 mb-4 rounded-md bg-white shadow-md my-auto md:font-medium md:flex md:flex-row md:p-0 md:w-auto md:bg-transparent md:shadow-none dark:bg-zinc-800 dark:md:bg-transparent'
                     }>
                     <li className='w-full'>
-                        <a href="#about">
+                        <a href='#about'>
                             <button
                                 id='demoLink'
-                                className='w-full px-4 py-2 text-start capitalize hover:backdrop-brightness-95 md:hover:backdrop-brightness-100 md:hover:text-slate-400 dark:text-slate-200 dark:hover:backdrop-brightness-110 dark:md:hover:backdrop-brightness-100'
+                                className='w-full px-4 py-2 text-start capitalize hover:backdrop-brightness-95 md:hover:backdrop-brightness-100 md:hover:text-slate-400
+                                 dark:text-slate-200 dark:hover:backdrop-brightness-125 dark:md:hover:backdrop-brightness-100 dark:md:hover:neon-text'
                                 role='link'>
                                 About
                             </button>
                         </a>
                     </li>
                     <li className='w-full'>
-                        <a href="#work">
+                        <a href='#work'>
                             <button
                                 id='homeLink'
-                                className='w-full px-4 py-2 text-start capitalize hover:backdrop-brightness-95 md:hover:backdrop-brightness-100 md:hover:text-slate-400 dark:text-slate-200 dark:hover:backdrop-brightness-110 dark:md:hover:backdrop-brightness-100'
+                                className='w-full px-4 py-2 text-start capitalize hover:backdrop-brightness-95 md:hover:backdrop-brightness-100 md:hover:text-slate-400
+                                 dark:text-slate-200 dark:hover:backdrop-brightness-125 dark:md:hover:backdrop-brightness-100 dark:md:hover:neon-text'
                                 role='link'>
                                 Work
                             </button>
                         </a>
                     </li>
                     <li className='w-full'>
-                        <a href="#skills">
+                        <a href='#skills'>
                             <button
                                 id='homeLink'
-                                className='w-full px-4 py-2 text-start capitalize hover:backdrop-brightness-95 md:hover:backdrop-brightness-100 md:hover:text-slate-400 dark:text-slate-200 dark:hover:backdrop-brightness-110 dark:md:hover:backdrop-brightness-100'
+                                className='w-full px-4 py-2 text-start capitalize hover:backdrop-brightness-95 md:hover:backdrop-brightness-100 md:hover:text-slate-400
+                                 dark:text-slate-200 dark:hover:backdrop-brightness-125 dark:md:hover:backdrop-brightness-100 dark:md:hover:neon-text'
                                 role='link'>
                                 Skills
                             </button>
@@ -79,13 +79,13 @@ const Header = ({ toggleLightMode, changeActivePage }) => {
                             onClick={toggleLightMode}
                             type='button'
                             id='themeBtn'
-                            className='w-full px-4 py-2 hover:backdrop-brightness-95 md:hover:backdrop-brightness-100 dark:hover:backdrop-brightness-110 dark:md:hover:backdrop-brightness-100 group'>
+                            className='w-full px-4 py-2 hover:backdrop-brightness-95 md:hover:backdrop-brightness-100 dark:hover:backdrop-brightness-125 dark:md:hover:backdrop-brightness-100 group'>
                             <svg
                                 xmlns='http://www.w3.org/2000/svg'
                                 fill='none'
                                 viewBox='0 0 24 24'
                                 strokeWidth='1.5'
-                                className='w-6 h-6 stroke-black dark:stroke-slate-200 md:group-hover:stroke-slate-400'>
+                                className='w-6 h-6 stroke-black dark:stroke-slate-200 md:group-hover:stroke-slate-400 dark:md:group-hover:neon-text'>
                                 <title>light screen theme</title>
                                 <path
                                     strokeLinecap='round'

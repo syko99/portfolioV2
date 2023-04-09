@@ -1,12 +1,14 @@
 import softwareForGoodImg from '@public/assets/sfg.svg'
 
+import '../shared_styles/index.css'
+
 const Work = () => {
     return (
-        <div className='grid-in-work w-full bg-white rounded-lg shadow-md p-4 flex flex-col gap-4 relative dark:bg-zinc-800 dark:text-slate-300'>
+        <div className='grid-in-work w-full bg-white rounded-lg shadow-md p-4 flex flex-col gap-4 relative dark:shadow-[inset_0_0_2rem_0] dark:shadow-zinc-800 dark:bg-zinc-900 dark:hover-glow-pixel dark:text-slate-300'>
             <h2 className="text-xl border-b text-slate-800 dark:text-slate-300">Work</h2>
             <div className='text-center flex flex-col gap-4 items-center lg:text-start'>
                 <div className='lg:self-start'>
-                    <h3 className='text-lg font-bold'>Software Developer Intern</h3>
+                    <h3 className='text-xl font-medium'>Software Developer Intern</h3>
                     <p className='capitalize text-black/75 text-sm dark:text-slate-300/75'>
                         Software For Good - Summer 2022
                     </p>

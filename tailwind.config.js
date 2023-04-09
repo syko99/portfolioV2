@@ -19,7 +19,7 @@ module.exports = {
             },
             gridTemplateRows: {
                 desktop: 'auto auto 1fr'
-            }
+            },
         },
     },
     plugins: [require('tailwind-scrollbar'), require('@savvywombat/tailwindcss-grid-areas')],

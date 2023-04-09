@@ -56,8 +56,7 @@ const Projects = () => {
     })
 
     return (
-        <div className='grid-in-projects w-full grid gap-4 rounded-lg '>
-            {/* <h2 className='text-xl text-slate-800 dark:text-slate-300'>Projects <hr /></h2> */}
+        <div className='grid-in-projects w-full grid gap-4 rounded-lg'>
             {projectComponents}
         </div>
     )

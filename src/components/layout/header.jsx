@@ -39,7 +39,7 @@ const Header = ({ toggleLightMode, changeActivePage }) => {
                     id='navMenu'
                     className={
                         `${mobileMenuActive === true ? ' ' : ' hidden '}` +
-                        'flex flex-col w-11/12 mb-4 rounded-md bg-white shadow-md my-auto md:font-medium md:flex md:flex-row md:p-0 md:w-auto md:bg-transparent md:shadow-none dark:bg-zinc-800 dark:md:bg-transparent'
+                        'flex flex-col w-11/12 rounded-3xl bg-white shadow-lg my-auto md:font-medium md:flex md:flex-row md:p-0 md:w-auto md:bg-transparent md:shadow-none dark:bg-zinc-800 dark:md:bg-transparent'
                     }>
                     <li className='w-full'>
                         <a href='#about'>

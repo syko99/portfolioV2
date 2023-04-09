@@ -44,7 +44,6 @@ const Header = ({ toggleLightMode, changeActivePage }) => {
                     <li className='w-full'>
                         <a href='#about'>
                             <button
-                                id='demoLink'
                                 className='w-full px-4 py-2 text-start capitalize hover:backdrop-brightness-95 md:hover:backdrop-brightness-100 md:hover:text-slate-400
                                  dark:text-slate-200 dark:hover:backdrop-brightness-125 dark:md:hover:backdrop-brightness-100 dark:md:hover:neon-text'
                                 role='link'>
@@ -55,7 +54,6 @@ const Header = ({ toggleLightMode, changeActivePage }) => {
                     <li className='w-full'>
                         <a href='#work'>
                             <button
-                                id='homeLink'
                                 className='w-full px-4 py-2 text-start capitalize hover:backdrop-brightness-95 md:hover:backdrop-brightness-100 md:hover:text-slate-400
                                  dark:text-slate-200 dark:hover:backdrop-brightness-125 dark:md:hover:backdrop-brightness-100 dark:md:hover:neon-text'
                                 role='link'>
@@ -66,7 +64,6 @@ const Header = ({ toggleLightMode, changeActivePage }) => {
                     <li className='w-full'>
                         <a href='#skills'>
                             <button
-                                id='homeLink'
                                 className='w-full px-4 py-2 text-start capitalize hover:backdrop-brightness-95 md:hover:backdrop-brightness-100 md:hover:text-slate-400
                                  dark:text-slate-200 dark:hover:backdrop-brightness-125 dark:md:hover:backdrop-brightness-100 dark:md:hover:neon-text'
                                 role='link'>

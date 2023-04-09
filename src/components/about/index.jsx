@@ -7,7 +7,7 @@ import '../shared_styles/index.css'
 const About = () => {
 
     return (
-        <div className='grid-in-about w-full bg-white rounded-lg relative shadow-md overflow-hidden dark:shadow-[inset_0_0_2rem_0] dark:shadow-zinc-800 dark:bg-zinc-900 dark:hover-glow-pixel'>
+        <div className='grid-in-about w-full flex flex-col bg-white rounded-lg relative shadow-md overflow-hidden dark:shadow-[inset_0_0_2rem_0] dark:shadow-zinc-800 dark:bg-zinc-900 dark:hover-glow-pixel'>
             <div className='w-full h-24 overflow-hidden bg-landscape bg-center'></div>
             <div className='rounded-full w-24 h-24 absolute left-1/2 top-24 -translate-x-1/2 -translate-y-1/2 overflow-hidden'>
                 <img src={profileImg} alt='profile image' className='absolute -bottom-0' />
@@ -22,23 +22,23 @@ const About = () => {
                     I'm not pressing keys, I'll probably be unplugged and surrounded by nature 🌳.
                 </p>
             </div>
-            <div className='flex justify-center items-center gap-4 p-4'>
-                <a href='https://github.com/syko99' target='_'>
-                    <div className='w-8 hover:opacity-80'>
-                        <img src={githubSVG} alt='github' className='w-full'/>
-                    </div>
-                </a>
-                <a href='https://www.linkedin.com/in/sykong-yang-07a6141b6/' target='_'>
-                    <div className='w-11 hover:opacity-80'>
-                        <img src={linkedinSVG} alt='email' className='w-full'/>
-                    </div>
-                </a>
-                <a href='mailto:sykong.yang1@outlook.com'>
-                    <div className='w-10 hover:opacity-80'>
-                        <img src={mailSVG} alt='email' className='w-full'/>
-                    </div>
-                </a>
-            </div>
+                <div className='flex justify-center items-center gap-4 p-4 my-auto'>
+                    <a href='https://github.com/syko99' target='_'>
+                        <div className='w-8 hover:opacity-80'>
+                            <img src={githubSVG} alt='github' className='w-full'/>
+                        </div>
+                    </a>
+                    <a href='https://www.linkedin.com/in/sykong-yang-07a6141b6/' target='_'>
+                        <div className='w-11 hover:opacity-80'>
+                            <img src={linkedinSVG} alt='email' className='w-full'/>
+                        </div>
+                    </a>
+                    <a href='mailto:sykong.yang1@outlook.com'>
+                        <div className='w-10 hover:opacity-80'>
+                            <img src={mailSVG} alt='email' className='w-full'/>
+                        </div>
+                    </a>
+                </div>
             <div id='about' className='absolute -top-1/2' aria-hidden='true'></div>
         </div>
     )

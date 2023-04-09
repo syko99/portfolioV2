@@ -4,7 +4,7 @@ import bracketSvg from '@public/assets/brackets.svg'
 const Project = ({ project }) => {
     return (
         <div
-            className={`w-full flex flex-col rounded-lg p-4 ${project.background} shadow-md ${project.textColor}`}>
+            className={`w-full flex flex-col rounded-3xl p-4 ${project.background} shadow-lg ${project.textColor}`}>
             <div className='flex flex-col'>
                 <div className='flex justify-between items-center'>
                     <h3 className='text-2xl font-bold capitalize'>{project.name}</h3>

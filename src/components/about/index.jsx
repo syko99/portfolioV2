@@ -7,7 +7,7 @@ import '../shared_styles/index.css'
 const About = () => {
 
     return (
-        <div className='grid-in-about w-full flex flex-col bg-white rounded-lg relative shadow-md overflow-hidden dark:shadow-[inset_0_0_2rem_0] dark:shadow-zinc-800 dark:bg-zinc-900 dark:hover-glow-pixel'>
+        <div className='grid-in-about w-full flex flex-col bg-white rounded-3xl relative shadow-lg overflow-hidden dark:shadow-[inset_0_0_2rem_0] dark:shadow-zinc-800 dark:bg-zinc-900 dark:hover-glow-pixel'>
             <div className='w-full h-24 overflow-hidden bg-landscape bg-center'></div>
             <div className='rounded-full w-24 h-24 absolute left-1/2 top-24 -translate-x-1/2 -translate-y-1/2 overflow-hidden'>
                 <img src={profileImg} alt='profile image' className='absolute -bottom-0' />

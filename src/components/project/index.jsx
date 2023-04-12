@@ -41,6 +41,7 @@ const Projects = () => {
         {
             name: 'Taskr',
             image: taskrImg,
+            imageRel: 'preload',
             description:
                 'The ultimate to-do list app.',
             live: 'https://taskrapp.netlify.app',

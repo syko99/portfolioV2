@@ -14,7 +14,7 @@ const Work = () => {
                     </p>
                 </div>
                 <div className='w-full max-w-sm p-4 rounded-lg dark:bg-white'>
-                    <img src={softwareForGoodImg} alt='software for good logo' />
+                    <img src={softwareForGoodImg} alt='software for good logo' width={235} height={100} />
                 </div>
                 <p className='max-w-prose'>
                     Experience working in scrum teams and individually as a full stack software

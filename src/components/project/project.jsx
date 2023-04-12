@@ -13,7 +13,7 @@ const Project = ({ project }) => {
                             <button
                                 className={`w-8 aspect-square p-1 rounded-full grid place-items-center bg-white sm:w-10 hover:opacity-75`}>
                                 <div className='w-5 sm:w-6'>
-                                    <img src={linkSvg} alt='link to project page' />
+                                    <img src={linkSvg} width={100} height={100} alt='link to project page' />
                                 </div>
                             </button>
                         </a>
@@ -21,7 +21,7 @@ const Project = ({ project }) => {
                             <button
                                 className={`w-8 aspect-square p-1 rounded-full grid place-items-center bg-white sm:w-10 hover:opacity-75`}>
                                 <div className='w-5 sm:w-6'>
-                                    <img src={bracketSvg} alt='link to code' />
+                                    <img src={bracketSvg} width={100} height={100} alt='link to code' />
                                 </div>
                             </button>
                         </a>
@@ -29,8 +29,8 @@ const Project = ({ project }) => {
                 </div>
                 <p className='opacity-75'>{project.description}</p>
             </div>
-            <div className='w-3/4 mx-auto mt-8'>
-                <img src={project.image} alt='project image' />
+            <div className='w-100 mt-8'>
+                <img src={project.image} alt='project image' rel={project.imageRel} width={600} height={400} className='mx-auto'/>
             </div>
         </div>
     )

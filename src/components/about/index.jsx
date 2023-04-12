@@ -1,4 +1,4 @@
-import profileImg from '@public/assets/profile_images/profile.jpg'
+import profileImg from '@public/assets/profile_images/profile.png'
 import githubSVG from '@public/assets/profile_images/github.svg'
 import mailSVG from '@public/assets/profile_images/mail.svg'
 import linkedinSVG from '@public/assets/profile_images/linkedin.svg'
@@ -25,17 +25,17 @@ const About = () => {
                 <div className='flex justify-center items-center gap-4 p-4 my-auto'>
                     <a href='https://github.com/syko99' target='_'>
                         <div className='w-8 hover:opacity-80'>
-                            <img src={githubSVG} alt='github' className='w-full'/>
+                            <img src={githubSVG} alt='github' width={100} height={100} className='w-full'/>
                         </div>
                     </a>
                     <a href='https://www.linkedin.com/in/sykong-yang-07a6141b6/' target='_'>
                         <div className='w-11 hover:opacity-80'>
-                            <img src={linkedinSVG} alt='email' className='w-full'/>
+                            <img src={linkedinSVG} alt='email' width={100} height={100} className='w-full'/>
                         </div>
                     </a>
                     <a href='mailto:sykong.yang1@outlook.com'>
                         <div className='w-10 hover:opacity-80'>
-                            <img src={mailSVG} alt='email' className='w-full'/>
+                            <img src={mailSVG} alt='email' width={100} height={100} className='w-full'/>
                         </div>
                     </a>
                 </div>

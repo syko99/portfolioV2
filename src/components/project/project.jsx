@@ -30,7 +30,7 @@ const Project = ({ project }) => {
                 <p className='opacity-75'>{project.description}</p>
             </div>
             <div className='w-100 mt-8'>
-                <img src={project.image} alt='project image' rel={project.imageRel} width={600} height={400} className='mx-auto'/>
+                <img src={project.image} alt={project.imageAlt} rel={project.imageRel} width={600} height={400} className='mx-auto'/>
             </div>
         </div>
     )

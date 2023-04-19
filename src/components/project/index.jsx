@@ -8,39 +8,30 @@ import Project from './project'
 const Projects = () => {
     let projectList = [
         {
-            name: 'Pixel Sketcher',
-            image: pixelSketcherImg,
-            description: 'Let your pixelated imaginations free.',
-            live: 'https://syko99.github.io/pixelSketcherPub/',
-            code: 'https://github.com/syko99/pixelSketcherPub',
-            background: 'bg-[#33323A]',
-            textColor: 'text-white',
-            accentColor: 'white'
-        },
-        {
             name: 'Welp',
             image: welpImg,
+            imageAlt: 'welp website image',
             description: 'Review tourist destinations with this Yelp-inspired site.',
             live: 'http://sp-cfsics.metrostate.edu/~ics325fa2227/Group7_Project/index.php',
             code: 'https://github.com/syko99/Welp',
             background: 'bg-[#FEDDBE]',
             textColor: 'text-black',
-            accentColor: 'black'
         },
         {
             name: 'castforecast',
             image: castforecastImg,
+            imageAlt: 'castforecast website image',
             description:
                 "You don't need to be a meteorologist to understand the data.",
             live: 'https://castforecast.netlify.app',
             code: 'https://github.com/syko99/castforecast',
             background: 'bg-sky-200',
             textColor: 'text-black',
-            accentColor: 'black'
         },
         {
             name: 'Taskr',
             image: taskrImg,
+            imageAlt: 'Taskr website image',
             imageRel: 'preload',
             description:
                 'The ultimate to-do list app.',
@@ -48,7 +39,6 @@ const Projects = () => {
             code: 'https://github.com/syko99/Taskr',
             background: 'bg-slate-200',
             textColor: 'text-black',
-            accentColor: 'black'
         },
     ]
 

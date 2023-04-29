@@ -4,6 +4,7 @@ import welpImg from  '@public/assets/project_images/welp.jpg'
 import pixelSketcherImg from  '@public/assets/project_images/pixelSketcher.jpg'
 
 import Project from './project'
+import Status from './status'
 
 const Projects = () => {
     let projectList = [
@@ -48,6 +49,7 @@ const Projects = () => {
 
     return (
         <div className='grid-in-projects w-full grid gap-4 rounded-lg'>
+            <Status />
             {projectComponents}
         </div>
     )

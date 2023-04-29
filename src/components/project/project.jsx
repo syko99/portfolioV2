@@ -9,6 +9,7 @@ const Project = ({ project }) => {
                 <div className='flex justify-between items-center'>
                     <h3 className='text-2xl font-bold capitalize'>{project.name}</h3>
                     <div className={`flex gap-2 text-black`}>
+                        {project.live !== ''? 
                         <a href={project.live} target='_' className=''>
                             <button
                                 className={`w-8 aspect-square p-1 rounded-full grid place-items-center bg-white sm:w-10 hover:opacity-75`}>
@@ -16,7 +17,7 @@ const Project = ({ project }) => {
                                     <img src={linkSvg} width={100} height={100} alt='link to project page' />
                                 </div>
                             </button>
-                        </a>
+                        </a>: ''}
                         <a href={project.code} target='_' className=''>
                             <button
                                 className={`w-8 aspect-square p-1 rounded-full grid place-items-center bg-white sm:w-10 hover:opacity-75`}>

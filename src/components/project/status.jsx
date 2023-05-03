@@ -15,7 +15,7 @@ const Status = () => {
                 </div>
                 <h3 className='font-medium text-slate-500 dark:text-slate-400'>Status: </h3>
             </div>
-            <p className='dark:text-slate-300'>Currently building a website to promote natural disaster safety. </p>
+            <p className='dark:text-slate-300'>Currently building a website to promote natural disaster safety.</p>
         </div>
     )
 }

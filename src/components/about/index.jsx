@@ -1,4 +1,4 @@
-import profileImg from '@public/assets/profile_images/profile.png'
+import profileImg from '@public/assets/profile_images/astronaut-profile.jpg'
 import githubSVG from '@public/assets/profile_images/github.svg'
 import mailSVG from '@public/assets/profile_images/mail.svg'
 import linkedinSVG from '@public/assets/profile_images/linkedin.svg'
